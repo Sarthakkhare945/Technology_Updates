@@ -1,0 +1,657 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+
+
+<u><h1 class="LatestUpdate">Latest Updates</h1></u>
+
+
+
+    <div class="NewsHeadlineImageWithDesc">
+        <div class="ImageWithHeadline">
+            <img src={{data["articles"][0]['urlToImage']}} alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][0]['title']}}</h3>
+                <p class="description">{{data["articles"][0]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][0]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][0]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- 1 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][1]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][1]['title']}}</h3>
+                <p class="description">{{data["articles"][1]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][1]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][1]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- 2 -->
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][2]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][2]['title']}}</h3>
+                <p class="description">{{data["articles"][2]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][2]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][2]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+
+    <!-- 3 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][3]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][3]['title']}}</h3>
+                <p class="description">{{data["articles"][3]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][3]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][3]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    <!-- 4 -->
+
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][4]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][4]['title']}}</h3>
+                <p class="description">{{data["articles"][4]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][4]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][4]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    <!-- 5 -->
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][5]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][5]['title']}}</h3>
+                <p class="description">{{data["articles"][5]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][5]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][5]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <!-- 6 -->
+
+
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][6]['urlToImage']}}"alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image"
+                style="object-fit: cover">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][6]['title']}}</h3>
+                <p class="description">{{data["articles"][6]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][6]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][6]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+    <!-- 7 -->
+
+
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][7]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][7]['title']}}</h3>
+                <p class="description">{{data["articles"][7]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][7]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][7]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- 8 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][8]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][8]['title']}}</h3>
+                <p class="description">{{data["articles"][8]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][8]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][8]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- 9 -->
+
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][9]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][9]['title']}}</h3>
+                <p class="description">{{data["articles"][9]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][9]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][9]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <!-- 10 -->
+
+
+
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][10]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][10]['title']}}</h3>
+                <p class="description">{{data["articles"][10]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][10]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][10]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <!-- 11 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][11]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][11]['title']}}</h3>
+                <p class="description">{{data["articles"][11]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][11]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][11]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+    <!-- 12 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][12]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][12]['title']}}</h3>
+                <p class="description">{{data["articles"][12]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][12]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <!-- 13 -->
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][13]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][13]['title']}}</h3>
+                <p class="description">{{data["articles"][13]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][13]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][13]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][13]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- 14 -->
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][14]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][14]['title']}}</h3>
+                <p class="description">{{data["articles"][14]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][14]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][14]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][14]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+
+
+    <!-- 15 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][15]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][15]['title']}}</h3>
+                <p class="description">{{data["articles"][15]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][15]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][15]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][15]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+
+
+    <!-- 16 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][16]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][16]['title']}}</h3>
+                <p class="description">{{data["articles"][16]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][16]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][16]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][16]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+
+
+    <!-- 17 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][17]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][17]['title']}}</h3>
+                <p class="description">{{data["articles"][17]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][17]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][17]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][17]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+    <!-- 18 -->
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][18]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][18]['title']}}</h3>
+                <p class="description">{{data["articles"][18]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][18]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][18]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][18]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+    <!-- 19 -->
+
+
+
+    <div class="NewsHeadlineImageWithDesc2">
+        <div class="ImageWithHeadline">
+            <img src="{{data["articles"][19]['urlToImage']}}" alt="Not Found"
+                onerror=this.src="{{url_for('static',filename = 'image-not-available.jpg')}}" class="image">
+
+            <div class="HeadlineDesc">
+                <h3 class="Headline">{{data["articles"][19]['title']}}</h3>
+                <p class="description">{{data["articles"][19]['description']}}</span><br>
+                <div class="sourceWithAuthor">
+                    <span style="font-weight: bold;">Source: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][19]['source']['name']}}</span><br>
+                    <span style="font-weight: bold;">Author: &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>{{data["articles"][19]['author']}}</span>
+                    <br>
+
+                    <span style="font-weight: bold;">Published at: &nbsp;&nbsp;</span>
+                    <span>{{data["articles"][19]['publishedAt']}}</span>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

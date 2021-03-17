@@ -1,0 +1,28 @@
+.footer{ 
+    
+    text-align: center;
+    font: 16px asap,arial,tahoma;
+    color: #eee;
+background: black;
+width: 100%;
+border-top: 5px solid #00a0db;
+padding: 20px 0 36px;
+line-height: 1.5;   
+margin-top: 50px !important;
+position: relative;
+bottom: 0%;
+
+
+
+}
+
+.footerlinks{
+    margin-top: 20px;
+    color: #0089ff;
+
+}
+.footerlinks ul li{
+display: inline;
+padding: 30px;
+}
+

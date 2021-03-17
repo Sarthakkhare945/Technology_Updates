@@ -1,0 +1,37 @@
+
+.TermsAndConditions{
+   margin-top: 20px;
+   font-weight: bold;
+   font-size: 25px; 
+
+}
+
+ main{
+    margin-left: 20px;
+    
+    width: 70%;
+} 
+
+b{
+    margin-top: 10px;
+}
+
+ 
+@media screen and (max-width: 600px){
+    
+
+    main{
+       margin-left: 40px;
+       width: 80%;
+   }
+} 
+
+
+
+ @media screen and (min-width: 600px){ 
+   
+   main{
+       margin-left: 70px;
+       width: 80%;
+   }
+}
