@@ -1,7 +1,5 @@
 # Technology_Updates
 
-
-# Short-Url
 <p>It's a flask app which gives the user latest technology updates.</p>
 
 Flask
