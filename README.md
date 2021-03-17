@@ -1,4 +1,4 @@
-# Technology_Updates
+# Technology Updates
 
 <p>It's a flask app which gives the user latest technology updates.</p>
 
